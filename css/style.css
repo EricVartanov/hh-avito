@@ -1,0 +1,152 @@
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+.idc-section {
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    max-width: 660px;
+    margin: 0 auto;
+}
+
+.idc-flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.idc-container {
+    margin: 0 auto;
+    max-width: 580px;
+}
+
+.idc-bgwrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+.idc-title {
+    margin: 0;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 31px;
+    line-height: 36px;
+    color: #000000;
+}
+
+.idc-text-1 {
+    margin: 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000000;
+}
+
+/* *********************************head***************** */
+.idc-head .idc-bgwrapper {
+    background-color: #eae5db;
+}
+.idc-head .idc-container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.idc-head-img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+/* ************about************* */
+
+.idc-about .idc-container {
+    padding-top: 40px;
+}
+.idc-about .idc-text-1 {
+    margin-top: 20px;
+}
+/* *************info************** */
+.idc-info .idc-colors {
+    position: absolute;
+    width: 30px;
+}
+.idc-blue {
+    top: 0;
+    left: 0;
+}
+.idc-green {
+    right: 0;
+    top: 34%;
+}
+.idc-red {
+    left: 0;
+    top: 65%;
+}
+.idc-purple {
+    right: 0;
+    bottom: 0;
+}
+.idc-info .idc-container {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.idc-info .idc-title {
+    margin-top: 60px;
+}
+.idc-info .idc-title:first-child{
+    margin-top: 0;
+}
+.idc-info ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 30px;
+}
+
+.idc-info ul li {
+    position: relative;
+    margin-top: 15px;
+    padding-left: 28px;
+}
+
+.idc-info ul li::before {
+    content: "";
+    position: absolute;
+    top: 12px;
+    left: 0;
+    width: 18px;
+    height: 1px;
+    background: #000000;
+}
+
+/* ***********************footer****************** */
+.idc-footer .idc-container {
+    padding-bottom: 60px;
+}
+.idc-footer .idc-text-1 {
+    margin-top: 20px;
+    max-width: 548px;
+}
+.idc-footer .idc-text-1:first-child {
+    margin-top: 0;
+}
