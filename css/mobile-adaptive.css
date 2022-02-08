@@ -16,6 +16,10 @@
     .idc-head .idc-container {
         padding-top: 30px;
     }
+     /* ******info**** */
+     .idc-info .idc-colors {
+        width: 3vw;
+    }
 }
 
 @media (max-width: 699px) {
@@ -35,10 +39,16 @@
     /* ******about**** */
 
     .idc-about .idc-container {
-        padding-top: 50px;
+        padding-top: 20px;
     }
 
     /* ******info**** */
+    .idc-blue {
+        top: 1%;
+    }
+    .idc-red {
+        top: 64%;
+    }
     .idc-info .idc-colors {
         width: 4.7vw;
     }
@@ -55,7 +65,9 @@
     .idc-info ul li {
         margin-top: 10px;
     }
-
+    .idc-info ul li::before {
+        top: 8px;
+    }
     /* ******footer**** */
 
     .idc-footer .idc-text-1 {
